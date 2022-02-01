@@ -5,16 +5,19 @@ import Footer from '@components/Footer'
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Israel Brach's Resume</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <Head/>
       <main>
-        <Header title="Welcome to my resume!" />
+          <img src="me.png" id="picture"/>
+        <h1 title="Welcome to my resume!" />
         <p className="description">
           please excuse the site while it is under construction
         </p>
+          <a
+              href="/resume.pdf"
+              alt="Israel Brach's Resume"
+              target="_blank"
+              rel="noopener noreferrer"
+          >Download My Resume Here</a>
       </main>
 
       <Footer />
