@@ -1,39 +1,60 @@
-# Next + Netlify Starter
+# Developer Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
+## Description
 
-This is a [Next.js](https://nextjs.org/) v12 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
+This is my current web developer portfolio for my website [rayluna.me](https://www.rayluna.me). This portfolio is built with React.js and Next.js with theme by [JavaScript Mastery](https://github.com/adrianhajdin/portfolio_website). The app is deployed via Netlify. This is a one page layout that includes a collection of my best projects, tech skills, a bio and contact information.
 
-This project is a very minimal starter that includes 2 sample components, a global stylesheet, a `netlify.toml` for deployment, and a `jsconfig.json` for setting up absolute imports and aliases. It also includes the [Essential Next.js Build Plugin](https://github.com/netlify/netlify-plugin-nextjs), which will allow for you to implement features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing.
+[🚀 Launch](https://www.rayluna.me)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+## Table of Contents
 
-(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
+- [Image](#image)
+- [Technologies](#technologies)
+- [Known-Bugs](#known-bugs)
+- [Next-Steps](#next-steps)
+- [License](#license)
+- [Contact](#contact)
+- [Links](#links)
 
-## Getting Started
+## Image
 
-First, run the development server:
+![Screenshot](./public/images/dev-portfolio.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Technologies
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- React.js
+- Next.js
+- Javascript
+- Font Awesome
+- React-Icons
+- Netlify
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Known-Bugs
 
-### Installation options
+Some of the nav links are sometimes not responsive when clicked repeatedly but they work after a few tries. Minor styling bugs on smaller screens.
 
-**Option one:** One-click deploy
+## Next-Steps
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+- Styling changes for mobile view
+- Add form to contact section
+- Render contact buttons dynamically
 
-**Option two:** Manual clone
+## License
 
-1. Clone this repo: `git clone https://github.com/netlify-templates/next-netlify-starter.git`
-2. Navigate to the directory and run `npm install`
-3. Run `npm run dev`
-4. Make your changes
-5. Connect to [Netlify](https://url.netlify.com/Bk4UicocL) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Contact
+
+Author: Ray Luna
+
+If you have any questions about the repo, open an issue or contact me directly at:
+
+- E-Mail: leon.luna.ray@gmail.com
+- GitHub: [leon-luna-ray](https://github.com/leon-luna-ray)
+
+## Links
+
+- [Deployed Project](https://www.rayluna.me)
+
+- [Project Repository](https://github.com/leon-luna-ray/readme-generator)
