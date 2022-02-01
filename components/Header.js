@@ -2,7 +2,7 @@ import {Navbar, Nav, NavDropdown, Container, FormControl, Button, Offcanvas, For
 
 export default function Header({ title }) {
   return (
-      <Navbar bg="light" expand={false}>
+      <Navbar bg="light" expand={false} id="navbar">
           <Container fluid>
               <Navbar.Brand href="/">Israel Brach's Resume / Portfolio</Navbar.Brand>
               <Navbar.Toggle aria-controls="offcanvasNavbar" />
@@ -24,7 +24,7 @@ export default function Header({ title }) {
                               <NavDropdown.Item href="https://github.com/srulybrach/Sports-Journalism-Website">Sports Journalism Website</NavDropdown.Item>
                               <NavDropdown.Item href="https://github.com/meirgarfinkel/OsFinalProject">Java MultiThreading Demo</NavDropdown.Item>
                               <NavDropdown.Divider />
-                              <NavDropdown.Item href="#action5">More on my GitHub</NavDropdown.Item>
+                              <NavDropdown.Item href="https://github.com/srulybrach">More on my GitHub</NavDropdown.Item>
                           </NavDropdown>
                       </Nav>
                   </Offcanvas.Body>
