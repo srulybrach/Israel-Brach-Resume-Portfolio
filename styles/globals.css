@@ -1,9 +1,21 @@
 html,
+#logo {
+  height: 2cm;
+  width: auto;
+}
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+#navbar {
+  font-size: 4000px;
+}
+
+#head {
+  margin-right: 30px;
 }
 
 #main {
@@ -17,6 +29,7 @@ body {
 #pdf {
   width: 100%;
 }
+
 
 code {
   background: #fafafa;
@@ -33,3 +46,5 @@ code {
   height: 300px;
   width: auto;
 }
+
+
