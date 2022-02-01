@@ -1,24 +1,34 @@
-import {Navbar, Nav, NavDropdown, Container, FormControl, Button} from 'react-bootstrap';
+import {Navbar, Nav, NavDropdown, Container, FormControl, Button, Offcanvas, Form} from 'react-bootstrap';
 
 export default function Header({ title }) {
   return (
-      <Navbar bg="light" expand="lg">
-          <Container>
-              <Navbar.Brand href="#home">Israel Brach's Resume & Portfolio</Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="me-auto">
-                      <Nav.Link href="/">Home</Nav.Link>
-                      <Nav.Link href="/resume">Resume</Nav.Link>
-                      <NavDropdown title="Major Projects" id="basic-nav-dropdown">
-                          <NavDropdown.Item href="https://github.com/srulybrach/GoodBM">Refactored Benchmarking</NavDropdown.Item>
-                          <NavDropdown.Item href="https://github.com/srulybrach/Sports-Journalism-Website">Sports Journalism Website</NavDropdown.Item>
-                          <NavDropdown.Item href="https://github.com/srulybrach/Israel-Brach-Resume-Portfolio">This Website</NavDropdown.Item>
-                          <NavDropdown.Divider />
-                          <NavDropdown.Item href="https://github.com/srulybrach">Github</NavDropdown.Item>
-                      </NavDropdown>
-                  </Nav>
-              </Navbar.Collapse>
+      <Navbar bg="light" expand={false}>
+          <Container fluid>
+              <Navbar.Brand href="#">Israel Brach's Resume / Portfolio</Navbar.Brand>
+              <Navbar.Toggle aria-controls="offcanvasNavbar" />
+              <Navbar.Offcanvas
+                  id="offcanvasNavbar"
+                  aria-labelledby="offcanvasNavbarLabel"
+                  placement="end"
+              >
+                  <Offcanvas.Header closeButton>
+                      <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+                  </Offcanvas.Header>
+                  <Offcanvas.Body>
+                      <Nav className="justify-content-end flex-grow-1 pe-3">
+                          <Nav.Link href="/">Home</Nav.Link>
+                          <Nav.Link href="/resume">Resume</Nav.Link>
+                          <NavDropdown title="Projects" id="offcanvasNavbarDropdown">
+                              <NavDropdown.Item href="https://github.com/srulybrach/Israel-Brach-Resume-Portfolio">This Website</NavDropdown.Item>
+                              <NavDropdown.Item href="https://github.com/srulybrach/GoodBM">Benchmark Application</NavDropdown.Item>
+                              <NavDropdown.Item href="https://github.com/srulybrach/Sports-Journalism-Website">Sports Journalism Website</NavDropdown.Item>
+                              <NavDropdown.Item href="https://github.com/meirgarfinkel/OsFinalProject">Java MultiThreading Demo</NavDropdown.Item>
+                              <NavDropdown.Divider />
+                              <NavDropdown.Item href="#action5">More on my GitHub</NavDropdown.Item>
+                          </NavDropdown>
+                      </Nav>
+                  </Offcanvas.Body>
+              </Navbar.Offcanvas>
           </Container>
       </Navbar>
   )
