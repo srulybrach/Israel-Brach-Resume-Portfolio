@@ -4,7 +4,7 @@ export default function Header({ title }) {
   return (
       <Navbar bg="light" expand={false}>
           <Container fluid>
-              <Navbar.Brand href="#">Israel Brach's Resume / Portfolio</Navbar.Brand>
+              <Navbar.Brand href="/">Israel Brach's Resume / Portfolio</Navbar.Brand>
               <Navbar.Toggle aria-controls="offcanvasNavbar" />
               <Navbar.Offcanvas
                   id="offcanvasNavbar"
@@ -12,7 +12,7 @@ export default function Header({ title }) {
                   placement="end"
               >
                   <Offcanvas.Header closeButton>
-                      <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+                      <Offcanvas.Title id="offcanvasNavbarLabel">Menu</Offcanvas.Title>
                   </Offcanvas.Header>
                   <Offcanvas.Body>
                       <Nav className="justify-content-end flex-grow-1 pe-3">
