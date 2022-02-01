@@ -1,14 +1,16 @@
 import '@styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Head from "components/Header"
+import Header from "components/Header"
+import Head from "components/head"
 
 function Application({ Component, pageProps }) {
   return (
       <>
-        <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-        </Head>
+          <Head/>
+          <Header>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+          </Header>
         <Component {...pageProps} />
       </>
   );
