@@ -11,8 +11,8 @@ const Home = () => {
       <Section grid>
         <Hero />
       </Section>
+        <About />
       <Technologies />
-      <About />
       <Contact />
     </Layout>
   );

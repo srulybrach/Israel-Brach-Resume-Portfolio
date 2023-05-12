@@ -17,17 +17,17 @@ const About = () => {
       <SectionText>
         {/* Personal profile image */}
         <Img src='/me.png' alt="Israel Brach's profile picture" />
-        Hi, I'm Israel! I am a graduate of software engineering at
-        Touro College in New York. I just finished my final semester of
-        Computer Science, and can't wait to get out there and start coding!
+          Hello, my name is Israel! I work as a Web Project Manager at B&H Photo Video,
+          a position I've held since completing my education. I earned my Bachelor's degree
+          in Software Engineering from Touro College in New York, graduating in 2022.
       </SectionText>
       <SectionText>
         I got into coding in 2014 because I enjoy problem solving. The rush of having
-        a computer correctly understand my solution to a problem is rarely met.
+        a computer correctly understand my solution to a problem is rarely met. Working with a large
+        team and being part of so many problems being solved has been incredibly gratifying.
       </SectionText>
       <SectionText>
-        I live in New York City. My hobbies are 3D Printing,
-        growing crops, playing video games, cooking, general tinkering, traveling and more.
+        I live in New York City. Some of my hobbies are 3D Printing,playing video games, cooking, general tinkering, and traveling.
       </SectionText>
       <br />
       <br />
