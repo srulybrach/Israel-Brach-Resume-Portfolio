@@ -13,10 +13,10 @@ const Hero = () => {
       <LeftSection>
         <SectionTitle main center>
           Israel Brach <br />
-          Developer Portfolio
+          Portfolio
         </SectionTitle>
         <SectionText>
-          I am primarily a backend software developer with experience at every stage of the stack.
+          I am a Project Manager, with development experience at every stage of the stack.
         </SectionText>
       </LeftSection>
     </Section>

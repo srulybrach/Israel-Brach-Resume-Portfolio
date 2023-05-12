@@ -24,10 +24,10 @@ const About = () => {
       <SectionText>
         I got into coding in 2014 because I enjoy problem solving. The rush of having
         a computer correctly understand my solution to a problem is rarely met. Working with a large
-        team and being part of so many problems being solved has been incredibly gratifying.
+        team and being a part of so many problems being solved has been incredibly gratifying.
       </SectionText>
       <SectionText>
-        I live in New York City. Some of my hobbies are 3D Printing,playing video games, cooking, general tinkering, and traveling.
+        I live in New York City. Some of my hobbies are 3D Printing, playing video games, cooking, general tinkering, and traveling.
       </SectionText>
       <br />
       <br />
