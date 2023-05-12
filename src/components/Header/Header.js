@@ -30,12 +30,12 @@ const Header = () => {
       </Div1>
       <Div2>
         <li>
-          <Link href='#technologies'>
+          <Link href='#about'>
             <NavLink>Technologies</NavLink>
           </Link>
         </li>
         <li>
-          <Link href='#about'>
+          <Link href='#technologies'>
             <NavLink>About</NavLink>
           </Link>
         </li>
