@@ -16,7 +16,7 @@ const Hero = () => {
           Portfolio
         </SectionTitle>
         <SectionText>
-          I am a Project Manager, with development experience at every stage of the stack.
+          I work as a Technical Project Manager, with development experience at every stage of the stack.
         </SectionText>
       </LeftSection>
     </Section>
